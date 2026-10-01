@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+h4{
+    font-weight: normal;
+}
+header {
+    font-family: "Playfair Display";
+    width: 100%;
+    height: auto;
+    background-color: rgb(124, 105, 249);
+    font-size: 20px;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+header a{
+    color: #000;
+    display: flex;
+    font-size: 22px;
+    align-content: center;
+    justify-content: center;
+}
+header a:hover {
+    text-align: center;
+    color: #000;
+}
+
+
+.headlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlist li {
+    display: block;
+    width: 25%;
+    background-color: rgb(124, 105, 249);
+    text-align: center;
+}
+
+.linker {
+    color: #000;
+}
+
+.linker:active {
+    height: auto;
+    background-color: white;
+    color: rgb(124, 105, 249);
+}
+
+.linker:hover {
+    display: block;
+    width: auto;
+    background-color: white;
+    color: rgb(124, 105, 249);
+    transition: 1s;
+}
+
+.about {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.about section {
+    border: 2px blue solid;
+    width: auto;
+    padding: 10px;
+    text-indent: 25px;
+}
+main {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section {
+    border: 2px blue solid;
+    padding: 10px;
+    text-indent: 25px;
+    height: auto;
+    margin-top: 10px;
+}
+.stethem {
+    border: 2px blue solid;
+    padding: 10px;
+    text-indent: 25px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h2 a{
+    color: rgb(124, 105, 249);
+}
+h2 a:hover{
+    color: blue;
+}
+#imaggge {
+    width: auto;
+    border: 2px blue solid;
+    height: auto;
+    padding: 10px;
+}
+.meimg{
+    width: 396px;
+    height: 308px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: rgb(124, 105, 249);
+}
